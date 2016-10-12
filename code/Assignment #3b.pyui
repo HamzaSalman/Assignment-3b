@@ -1,0 +1,231 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{415, 295}, {196, 64}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "large_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Large",
+          "uuid" : "A190C2A7-6F98-4FCD-85E5-566C536C9784",
+          "class" : "Button",
+          "name" : "large_button",
+          "font_size" : 37
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{415, 377}, {196, 64}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "extra_large_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Extra Large",
+          "uuid" : "D9FF104F-7D56-4F97-9294-8ACF144646FA",
+          "class" : "Button",
+          "name" : "extra_large_button",
+          "font_size" : 35
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{369, 217}, {290, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "siza_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "0BCA5E62-581E-4BEE-A9F5-2321C743BE58",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Select Size of Pizza:",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{369, 19}, {296, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "toppings_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "E9BFECB5-9D9E-47D9-8A1E-C4D2B0B0314C",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Enter Number of Toppings:",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{411, 82}, {200, 57}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "Number of Toppings",
+          "name" : "toppings_textfield",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "2972A596-9DF3-4833-9C4E-BE586CA0B2A8",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{623, 82}, {218, 57}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "error_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "817B23BE-7F95-4553-9100-EEE6C5D43697",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{366, 517}, {299, 80}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "calculate_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "276D9497-2F39-4412-91FC-632F67D9B388",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 41
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{369, 468}, {290, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "size_output_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "67AFE941-E192-4F66-A2DB-9D37C0344F25",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{369, 177}, {283, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "toppings_output_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "88C1557D-EDFE-4D9F-A649-E6C70081EFCC",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{307, 605}, {191, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "subtotal_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "C3496F7E-8DB1-4887-9E18-8558E4F86A09",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{603, 605}, {191, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "total_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "F6FE3D1C-2220-4461-AABC-A7081ED8FEFA",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{307, 645}, {191, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "2F86FFD5-662D-4427-A233-1B12EA8AB37B",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "hst_label",
+          "font_size" : 18
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
